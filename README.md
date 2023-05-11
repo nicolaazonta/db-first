@@ -19,18 +19,18 @@
 
 ## table columns:
 
-- id | INT | PK, AI, NN, UNIQUE | INDEX
-- brand | VARCHAR(30) | NOTNULL | INDEX 
-- model | VARCHAR(40) | NOTNULL | INDEX
-- variant | VARCHAR(50) |
+- id        | INT | PK, AI, NN, UNIQUE | INDEX
+- brand     | VARCHAR(30) | NOTNULL | INDEX 
+- model     | VARCHAR(40) | NOTNULL | INDEX
+- variant   | VARCHAR(50) |
 - body_type | VARCHAR(50) |
 - fuel_type | VARCHAR(30) | 
-- first_registration_year | YEAR | INDEX
-- country | VARCHAR (30) |
-- price | SMALLINT | NOTNULL | INDEX
-- mileage | INT | NOTNULL | INDEX
-- power | TINYINT | NOTNULL
-- gear | VARCHAR(40) | NULL
-- nr_of_doors | VARCHAR(20) | NULL
-- seller | VARCHAR(40) | NULL
-- ?image? | TEXT | NULL
+- reg_year  | YEAR | INDEX
+- country   | VARCHAR (30) |
+- price     | SMALLINT | NOTNULL | INDEX
+- mileage   | INT | NOTNULL | INDEX
+- power     | TINYINT | NOTNULL
+- gear      | VARCHAR(40) | NULL
+- doors     | VARCHAR(20) | NULL
+- seller    | VARCHAR(40) | NULL
+- ?image?   | TEXT | NULL
